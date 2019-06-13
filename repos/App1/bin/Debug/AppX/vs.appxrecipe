@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-EUHMTC1</Machine>
+    <WindowsUser>焦阳</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2bfb686c-3a1a-454c-95cb-738bfb3b5fc2</PackageIdentityName>
+    <PackageIdentityPublisher>CN=焦阳</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\焦阳\source\repos\App1\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\焦阳\source\repos\App1\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>2FE0B60C47BFC3A954203CBC77E41B5831B2BE53788CC9164FDDC1EDB7A59025</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2bfb686c-3a1a-454c-95cb-738bfb3b5fc2_1.0.0.0_neutral__85vac8g58qdh2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2bfb686c-3a1a-454c-95cb-738bfb3b5fc2_85vac8g58qdh2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2bfb686c-3a1a-454c-95cb-738bfb3b5fc2</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=焦阳</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\焦阳\source\repos\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-24T15:27:34.957</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2018-10-24T15:27:20.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-09-19T05:56:51.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-19T05:56:51.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-19T05:56:51.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-19T05:56:51.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-19T05:56:51.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-19T05:56:51.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-19T05:56:51.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2018-10-24T15:35:59.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2018-10-24T15:27:20.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\焦阳\source\repos\App1\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-24T15:27:34.712</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

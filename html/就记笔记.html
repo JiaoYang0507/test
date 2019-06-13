@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" content="就记录一些杂七杂八的东西 主要看源码吧">
+<title>笔记？</title>
+</head>
+
+<body>
+<h1><center>lesson 1</center></h1>
+<p>
+  <!-- 注释-->
+  <b>加粗</b></p>
+<p>
+  <u>下划线</u></p>
+  <s>注释删除</s>
+<p>
+  <a href="www.baidu.com">超链接到百度2333</a> 
+  <!--和下面这一行等价-->
+  <a href="www.baidu.com" target="_self">在本身窗口超链接到百度2333</a>
+  <br> <!--换行-->
+  <a href="https://www.baidu.com" target="new">建立新窗口超链接到百度2333</a><br>
+  <a href="www.baidu.com" target="_blank">建立新标签超链接到百度2333</a></p>
+  <br><br><br>
+<h1><center>Lesson 2</center></h1>
+  <table border="1px">
+  <thead>
+  <tr>
+  <td colspan="4">这没什么意义……就是表头</td>
+  </tr>
+  </thead>
+  <tr ><!--这里建立行-->
+  	<td rowspan="2">这里建立列</td>
+  	<td>这里建立</td>
+  	<td>这里建立</td>
+  	<td>这里建立</td>
+  </tr>
+    <tr ><!--这里建立行-->
+  	
+  	
+  	<td colspan="2" center>这里建立</td>
+  	<td>这里建立</td>
+  </tr>
+    <tr ><!--这里建立行-->
+  	<td>这里建立列</td>
+  	<td>这里建立</td>
+  	<td>这里建立</td>
+  	<td>这里建立</td>
+  </tr>
+  </table>
+  <center><h1>Lesson3</h1></center>
+<ol align="center">
+	<li>这是第一条</li>
+	<ol type="a" reversed><!--更改序列的排序标志-->
+		<li>这是第一小条</li>
+		<ul>这是无序标签
+		<li>无序标签第一个</li>
+		</ul>
+		<li>这是第二小条</li>
+		<li></li>
+	</ol>
+	<li>这是第二条</li>
+
+	
+</ol>
+	<center><h1>Lesson4</h1></center>
+	<!--表单-->
+	<from>
+	<input type="text"><!--默认选项-->
+	<input value="预先填充内容 占位">
+	<input placeholder="不占位文本">
+	<input placeholder="最大能输入文字数是" maxlength="1">
+	<input value="size效果如你所见 加长" size="50">
+	<input value="只读（基本上用来复制？）" readonly>
+	<input type="password" placeholder="输入密码">
+	<br>
+	<textarea rows="20" cols="2">确定长宽的表单元素</textarea>
+	<input type="button" value="就是按钮"> 
+	<button>按钮？同上？</button><!--与js合作并且绑定事件--><!--可能会用到onClick=""-->
+	<input type="submit" value="提交表单">
+	<input type="range" max="500" min="50" step="5" value="80"><!--滑块 分别为 最大 最小 步长 默认值 未设置则分别为0 100 any 平均值	-->
+	<input type="number"><!--之后同上设置--><br>
+	<input type="checkbox">可取消选择<br>
+	<input type="checkbox">复选框1<br>
+	<input type="checkbox">复选框2<br>
+	<input type="checkbox">复选框3<br>
+	<input type="radio">不可取消选项<br>
+	下面是单选题目<br>
+	<input type="radio" name="1" checked>默认选项1
+	<input type="radio" name="1">选项2
+	<input type="radio" name="1">选项3<br>
+	选项列表：
+	<select>
+		<option>选项1</option>
+		<option>选项2</option>
+		<option>选项3</option>
+		<option>选项4</option>
+		<option>选项5</option>
+	</select><br>
+	可选选项：
+	<input list="list1" placeholder="请选择">
+	<datalist  id="list1">
+		<option>选项1</option>
+		<option>选项2</option>
+		<option>选项3</option>
+		<option>选项4</option>
+		<option>选项5</option>
+	</datalist><br>
+邮箱格式验证表单<br>
+<input type="email"><!--以此类推吧-->
+<input type="tel">
+<input type="url"><br>
+在下面的b表单中输入日期
+<input type="date"><br>
+在下面的表单中选择颜色
+<input type="color"><br>
+搜索使用search（没理由和text没区别）<br>
+<input type="hidden" value="会提交至服务器但不会显示在输入界面"><br>
+<input type="image" src="../../Pictures/73D5DAE3203A34062B91870D2FB45F3D.jpg" width="80px"><!--图标按钮 src为地址 width为大小--><br>
+提交文件
+<input type="file"><!--其中multiple可上传多个 required为默认 只有一个-->
+	</from>
+</body>
+</html>

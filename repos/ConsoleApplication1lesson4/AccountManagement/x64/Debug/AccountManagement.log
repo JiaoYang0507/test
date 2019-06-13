@@ -1,0 +1,3 @@
+﻿  carFile.c
+c:\users\焦阳\source\repos\consoleapplication1lesson4\accountmanagement\carfile.c(22): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 8 拥有了类型“float *”
+  AccountManagement.vcxproj -> C:\Users\焦阳\source\repos\ConsoleApplication1lesson4\x64\Debug\AccountManagement.exe

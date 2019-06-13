@@ -1,0 +1,5 @@
+﻿  main.c
+c:\users\焦阳\source\repos\consoleapplication1\main.c(9): warning C4013: “outputMenu”未定义；假设外部返回 int
+  menu.c
+  正在生成代码...
+  ConsoleApplication1.vcxproj -> C:\Users\焦阳\source\repos\ConsoleApplication1\Debug\AccountManagement.exe

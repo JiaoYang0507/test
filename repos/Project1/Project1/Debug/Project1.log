@@ -1,0 +1,17 @@
+﻿  huffman.cpp
+C:\Users\焦阳\source\repos\Project1\Project1\huffman.cpp(7): error C2065: “node”: 未声明的标识符
+C:\Users\焦阳\source\repos\Project1\Project1\huffman.cpp(8): error C2065: “node”: 未声明的标识符
+C:\Users\焦阳\source\repos\Project1\Project1\huffman.cpp(9): error C2065: “node”: 未声明的标识符
+C:\Users\焦阳\source\repos\Project1\Project1\huffman.cpp(14): error C2065: “node”: 未声明的标识符
+C:\Users\焦阳\source\repos\Project1\Project1\huffman.cpp(15): error C2065: “node”: 未声明的标识符
+C:\Users\焦阳\source\repos\Project1\Project1\huffman.cpp(16): error C2065: “node”: 未声明的标识符
+C:\Users\焦阳\source\repos\Project1\Project1\huffman.cpp(17): error C2065: “node”: 未声明的标识符
+  main.cpp
+C:\Users\焦阳\source\repos\Project1\Project1\main.cpp(16): error C2065: “inadress”: 未声明的标识符
+C:\Users\焦阳\source\repos\Project1\Project1\main.cpp(21): error C2065: “inadress”: 未声明的标识符
+C:\Users\焦阳\source\repos\Project1\Project1\main.cpp(25): error C2065: “weight”: 未声明的标识符
+C:\Users\焦阳\source\repos\Project1\Project1\main.cpp(36): error C2065: “weight”: 未声明的标识符
+C:\Users\焦阳\source\repos\Project1\Project1\main.cpp(36): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  C:\Users\焦阳\source\repos\Project1\Project1\main.cpp(36): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  C:\Users\焦阳\source\repos\Project1\Project1\main.cpp(36): note: 缺失的可变参数 2 为格式字符串“%6d”所需
+  正在生成代码...
